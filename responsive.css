@@ -1,0 +1,204 @@
+/* Tablet */
+@media screen and (min-width:700px) {
+
+    body {
+        max-width: 100%;
+    }
+
+    .container {
+        Width: 29em;
+        Height: 1643px;
+        background-image: url(./Image/bg-main-tablet.png);
+        background-position: -461px -302px;
+        background-color: #FCFAF9;
+    }
+
+    header {
+        position: relative;
+        overflow: hidden;
+    }
+
+    header>h1 {
+        font-size: 56px;
+        margin: 59px 269px 19px 0px;
+    }
+
+    header>p {
+        margin: 0px 191px 0px 0px;
+    }
+
+    .logo-tablet {
+        display: block;
+        position: absolute;
+        width: 206px;
+        height: 305px;
+        left: 21.5em;
+        top: -1.2em;
+    }
+
+    .mobile {
+        top: -4.9em;
+        left: 2em;
+    }
+
+    .main {
+        margin: 151px auto;
+        Width: 468px;
+        Height: 600px;
+        padding: 0px 32px 0px 158px;
+    }
+
+    .circle {
+        margin: -1em 0em 0em 0.9em;
+        width: 11em;
+    }
+
+    .text {
+        top: 6.5em;
+        left: 8.5em;
+    }
+
+    footer {
+        margin: 178px 32px 0px 26px;
+    }
+
+    .logos {
+        margin: -58px 0px 0px 512px;
+    }
+
+    footer>p {
+        margin: 0px 270px 0px 0px
+    }
+
+    footer>img {
+        margin: 0px 0px 33px 0px;
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width:1024px) {
+
+    body {
+        margin: 0px;
+    }
+
+    .container {
+        Width: 100%;
+        Height: 1832px;
+        background-image: url(./Image/bg-main-desktop.png);
+        background-color: #FCFAF9;
+        background-position: 57% -222px;
+    }
+
+    .logo {
+        margin: 23px 0px 66px 96px;
+    }
+
+    .logo-tablet {
+        left: 78.1%;
+        width: 312px;
+        height: 468px
+    }
+
+    header>h1 {
+        font-size: 88px;
+        margin: 82px 395px 46px 100px;
+        line-height: 80px;
+    }
+
+    header>p {
+        margin: 0px 412px 108px 114px;
+        font-size: 20px;
+    }
+
+    .main {
+        width: 64%;
+        height: 564px;
+    }
+
+    .mobile {
+        width: 312px;
+        height: 642px;
+        top: -8.5em;
+        left: 4em;
+    }
+
+    .circle {
+        margin: -1.5em 0em -5em 7.1em;
+        width: 312px;
+        height: 468px
+    }
+
+    .text {
+        width: 40%;
+        height: 586px;
+        top: 3.8em;
+        left: 23.5em;
+    }
+
+    .text>h1 {
+        font-size: 40px;
+        margin: 58px 0px 0px 54px;
+    }
+
+    .text>p {
+        font-size: 20px;
+        margin: 22px 34px 0px 54px;
+    }
+
+    .text>h2 {
+        margin: 39px 0px 0px 54px
+    }
+
+    .ios {
+        width: 75%;
+        margin: 46px auto 8px auto;
+        border:none;
+    }
+
+    .ios:hover{
+        cursor:pointer;
+        background: #66E2DC;
+    }
+
+    .android {
+        width: 75%;
+    }
+
+    .android:hover{
+        cursor:pointer;
+        background: #FFB964;
+    }
+
+    footer {
+        margin: 150px 32px 0px 26px;
+    }
+
+    footer>img {
+        margin: 0% 0% -3% 11%;
+    }
+
+    .logos {
+        margin: -2% 0% 4% 84%;
+    }
+
+    footer>p {
+        margin: 0% 42% 0% 30%;
+    }
+
+    .face:hover {
+        cursor: pointer;
+        filter: invert(67%) sepia(46%) saturate(6201%) hue-rotate(330deg) brightness(114%) contrast(109%);
+    }
+
+    .insta:hover {
+        cursor: pointer;
+        filter: invert(67%) sepia(46%) saturate(6201%) hue-rotate(330deg) brightness(114%) contrast(109%);
+    }
+
+    .twitt:hover {
+        cursor: pointer;
+        filter: invert(67%) sepia(46%) saturate(6201%) hue-rotate(330deg) brightness(114%) contrast(109%);
+    }
+}
