@@ -31,7 +31,8 @@ Desktop
 Tablet and Mobile
 
 ![Screen Tablet](https://user-images.githubusercontent.com/116646278/235587096-b9d9b054-7f95-4e06-a1af-75cccbe9aea6.PNG)
-![Screen Mobile](https://user-images.githubusercontent.com/116646278/235587123-cb0f62aa-a0dd-47a2-9563-939b3360e503.PNG)
+![Screen Mobile](https://user-images.githubusercontent.com/116646278/235590043-9457f87f-c02d-4391-a5b5-58eab277e4ed.PNG)
+
 
 ### Links
 
